@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="practCss.css">
+        <title>Believer</title>
+    </head>
+    <body>
+        <h4 class="title1">title</h4>
+        <h4 class="title1">title</h4>
+        <h4 class="title1">title</h4>
+        <nav>
+            <li>Home</li>
+            <li>About us</li>
+            <li>contact us</li>
+        </nav>
+        <table>
+            <td>hello</td>
+            <tr>hello1</tr>
+            <tr>hello2</tr>
+            <tr>hello3</tr>
+        </table>
+        <script src="practJs.js"></script>
+    </body>
+</html>
+
+
+
+
+------------------------------------------------------
+
+
+nav{
+    display:flex;
+    background: cyan;
+}
+nav li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+
+
+------------------------------------------------------
+
+
+// alert("Hlo Achiever...Enter value")
+// let b = prompt("Enter here")
+// alert("you have entered value of type "+(typeof(b)))
+// let write = confirm("Do you want me to allow to write?")
+// if(write){
+//     document.write(b)
+// }
+// else{
+//     document.write("thank you")
+// }
+
+
+//ask user age and alert them if they can drive
+
+// let age = Number.parseInt(prompt("Enter your age"))
+// const drive = (age)=>{
+//     return age>=18?true:false
+// }
+
+// if(drive(age)){
+//     alert("you are eligible to drive")
+// }else{
+//     alert("Sorry...you are not eligible for driving")
+// }
+
+
+//if user enter >4 redirect to google page
+
+
+// let number = Number.parseInt(prompt("Enter number:"))
+// if(number>4){
+//     location.href = "https://www.google.com/"
+// }
+
+//change background color a/c to user given
+
+
+// let color = prompt("Enter color")
+// document.body.style.background = color;
+    
+// console.log(document.body.firstChild)
+
+
+// let ctitle = document.getElementById("title1")
+// ctitle.style.color = "yellow"
+
+
+// let titles = document.querySelectorAll(".title1")
+// console.log(titles)
+// titles[0].style.color = "red"
+// titles[1].style.color = "blue"
+// titles[2].style.color = "green"
+
+// let titles = document.querySelector(".title1").style.color = "red"
+
+//create navbar and change color of first element to red
+// document.getElementsByTagName("nav")[0].firstElementChild.style.color="red"
+
+// let navs = document.getElementsByTagName("nav")
+// console.log(navs)
+// console.log(navs[0])
+// document.getElementsByTagName("nav")[0].firstElementChild.style.color = "red"
+// document.getElementsByTagName("nav")[0].lastElementChild.style.color = "red"
+//create table without body and check in view page source if body present or not
+
+//js code to change all li to yellow
+Array.from(document.getElementsByTagName("li ")).forEach((element)=>{
+    element.style.background = "yellow"
+})
